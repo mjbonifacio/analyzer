@@ -1,0 +1,808 @@
+Started GET "/api/v1/hello" for ::1 at 2020-01-26 10:55:34 -0800
+  [1m[35m (2.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ActionController::RoutingError (uninitialized constant Api):
+  
+activesupport (6.0.2.1) lib/active_support/inflector/methods.rb:282:in `const_get'
+activesupport (6.0.2.1) lib/active_support/inflector/methods.rb:282:in `block in constantize'
+activesupport (6.0.2.1) lib/active_support/inflector/methods.rb:280:in `each'
+activesupport (6.0.2.1) lib/active_support/inflector/methods.rb:280:in `inject'
+activesupport (6.0.2.1) lib/active_support/inflector/methods.rb:280:in `constantize'
+activesupport (6.0.2.1) lib/active_support/dependencies/zeitwerk_integration.rb:19:in `constantize'
+actionpack (6.0.2.1) lib/action_dispatch/http/request.rb:88:in `controller_class_for'
+actionpack (6.0.2.1) lib/action_dispatch/http/request.rb:81:in `controller_class'
+actionpack (6.0.2.1) lib/action_dispatch/routing/route_set.rb:45:in `controller'
+actionpack (6.0.2.1) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (6.0.2.1) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.2.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.2.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.2.1) lib/action_dispatch/routing/route_set.rb:837:in `call'
+omniauth (1.9.0) lib/omniauth/strategy.rb:192:in `call!'
+omniauth (1.9.0) lib/omniauth/strategy.rb:169:in `call'
+omniauth (1.9.0) lib/omniauth/builder.rb:64:in `call'
+rack (2.1.1) lib/rack/tempfile_reaper.rb:17:in `call'
+rack (2.1.1) lib/rack/etag.rb:27:in `call'
+rack (2.1.1) lib/rack/conditional_get.rb:27:in `call'
+rack (2.1.1) lib/rack/head.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.1.1) lib/rack/session/abstract/id.rb:277:in `context'
+rack (2.1.1) lib/rack/session/abstract/id.rb:271:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+activerecord (6.0.2.1) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.1.1) lib/rack/method_override.rb:24:in `call'
+rack (2.1.1) lib/rack/runtime.rb:24:in `call'
+activesupport (6.0.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.1.1) lib/rack/sendfile.rb:113:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.2.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.1) lib/puma/configuration.rb:228:in `call'
+puma (4.3.1) lib/puma/server.rb:681:in `handle_request'
+puma (4.3.1) lib/puma/server.rb:472:in `process_client'
+puma (4.3.1) lib/puma/server.rb:328:in `block in run'
+puma (4.3.1) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/api/v1/hello" for ::1 at 2020-01-26 10:55:57 -0800
+  
+ActionController::RoutingError (uninitialized constant Api):
+  
+activesupport (6.0.2.1) lib/active_support/inflector/methods.rb:282:in `const_get'
+activesupport (6.0.2.1) lib/active_support/inflector/methods.rb:282:in `block in constantize'
+activesupport (6.0.2.1) lib/active_support/inflector/methods.rb:280:in `each'
+activesupport (6.0.2.1) lib/active_support/inflector/methods.rb:280:in `inject'
+activesupport (6.0.2.1) lib/active_support/inflector/methods.rb:280:in `constantize'
+activesupport (6.0.2.1) lib/active_support/dependencies/zeitwerk_integration.rb:19:in `constantize'
+actionpack (6.0.2.1) lib/action_dispatch/http/request.rb:88:in `controller_class_for'
+actionpack (6.0.2.1) lib/action_dispatch/http/request.rb:81:in `controller_class'
+actionpack (6.0.2.1) lib/action_dispatch/routing/route_set.rb:45:in `controller'
+actionpack (6.0.2.1) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (6.0.2.1) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.2.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.2.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.2.1) lib/action_dispatch/routing/route_set.rb:837:in `call'
+omniauth (1.9.0) lib/omniauth/strategy.rb:192:in `call!'
+omniauth (1.9.0) lib/omniauth/strategy.rb:169:in `call'
+omniauth (1.9.0) lib/omniauth/builder.rb:64:in `call'
+rack (2.1.1) lib/rack/tempfile_reaper.rb:17:in `call'
+rack (2.1.1) lib/rack/etag.rb:27:in `call'
+rack (2.1.1) lib/rack/conditional_get.rb:27:in `call'
+rack (2.1.1) lib/rack/head.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.1.1) lib/rack/session/abstract/id.rb:277:in `context'
+rack (2.1.1) lib/rack/session/abstract/id.rb:271:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+activerecord (6.0.2.1) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.1.1) lib/rack/method_override.rb:24:in `call'
+rack (2.1.1) lib/rack/runtime.rb:24:in `call'
+activesupport (6.0.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.1.1) lib/rack/sendfile.rb:113:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.2.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.1) lib/puma/configuration.rb:228:in `call'
+puma (4.3.1) lib/puma/server.rb:681:in `handle_request'
+puma (4.3.1) lib/puma/server.rb:472:in `process_client'
+puma (4.3.1) lib/puma/server.rb:328:in `block in run'
+puma (4.3.1) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/api/v1/hello" for ::1 at 2020-01-26 10:57:18 -0800
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ActionController::RoutingError (uninitialized constant Api):
+  
+activesupport (6.0.2.1) lib/active_support/inflector/methods.rb:282:in `const_get'
+activesupport (6.0.2.1) lib/active_support/inflector/methods.rb:282:in `block in constantize'
+activesupport (6.0.2.1) lib/active_support/inflector/methods.rb:280:in `each'
+activesupport (6.0.2.1) lib/active_support/inflector/methods.rb:280:in `inject'
+activesupport (6.0.2.1) lib/active_support/inflector/methods.rb:280:in `constantize'
+activesupport (6.0.2.1) lib/active_support/dependencies/zeitwerk_integration.rb:19:in `constantize'
+actionpack (6.0.2.1) lib/action_dispatch/http/request.rb:88:in `controller_class_for'
+actionpack (6.0.2.1) lib/action_dispatch/http/request.rb:81:in `controller_class'
+actionpack (6.0.2.1) lib/action_dispatch/routing/route_set.rb:45:in `controller'
+actionpack (6.0.2.1) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (6.0.2.1) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.2.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.2.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.2.1) lib/action_dispatch/routing/route_set.rb:837:in `call'
+omniauth (1.9.0) lib/omniauth/strategy.rb:192:in `call!'
+omniauth (1.9.0) lib/omniauth/strategy.rb:169:in `call'
+omniauth (1.9.0) lib/omniauth/builder.rb:64:in `call'
+rack (2.1.1) lib/rack/tempfile_reaper.rb:17:in `call'
+rack (2.1.1) lib/rack/etag.rb:27:in `call'
+rack (2.1.1) lib/rack/conditional_get.rb:27:in `call'
+rack (2.1.1) lib/rack/head.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.1.1) lib/rack/session/abstract/id.rb:277:in `context'
+rack (2.1.1) lib/rack/session/abstract/id.rb:271:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+activerecord (6.0.2.1) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.1.1) lib/rack/method_override.rb:24:in `call'
+rack (2.1.1) lib/rack/runtime.rb:24:in `call'
+activesupport (6.0.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.1.1) lib/rack/sendfile.rb:113:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.2.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.1) lib/puma/configuration.rb:228:in `call'
+puma (4.3.1) lib/puma/server.rb:681:in `handle_request'
+puma (4.3.1) lib/puma/server.rb:472:in `process_client'
+puma (4.3.1) lib/puma/server.rb:328:in `block in run'
+puma (4.3.1) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/api/v1/hello" for ::1 at 2020-01-26 10:57:21 -0800
+  
+ActionController::RoutingError (uninitialized constant Api):
+  
+activesupport (6.0.2.1) lib/active_support/inflector/methods.rb:282:in `const_get'
+activesupport (6.0.2.1) lib/active_support/inflector/methods.rb:282:in `block in constantize'
+activesupport (6.0.2.1) lib/active_support/inflector/methods.rb:280:in `each'
+activesupport (6.0.2.1) lib/active_support/inflector/methods.rb:280:in `inject'
+activesupport (6.0.2.1) lib/active_support/inflector/methods.rb:280:in `constantize'
+activesupport (6.0.2.1) lib/active_support/dependencies/zeitwerk_integration.rb:19:in `constantize'
+actionpack (6.0.2.1) lib/action_dispatch/http/request.rb:88:in `controller_class_for'
+actionpack (6.0.2.1) lib/action_dispatch/http/request.rb:81:in `controller_class'
+actionpack (6.0.2.1) lib/action_dispatch/routing/route_set.rb:45:in `controller'
+actionpack (6.0.2.1) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (6.0.2.1) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.2.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.2.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.2.1) lib/action_dispatch/routing/route_set.rb:837:in `call'
+omniauth (1.9.0) lib/omniauth/strategy.rb:192:in `call!'
+omniauth (1.9.0) lib/omniauth/strategy.rb:169:in `call'
+omniauth (1.9.0) lib/omniauth/builder.rb:64:in `call'
+rack (2.1.1) lib/rack/tempfile_reaper.rb:17:in `call'
+rack (2.1.1) lib/rack/etag.rb:27:in `call'
+rack (2.1.1) lib/rack/conditional_get.rb:27:in `call'
+rack (2.1.1) lib/rack/head.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.1.1) lib/rack/session/abstract/id.rb:277:in `context'
+rack (2.1.1) lib/rack/session/abstract/id.rb:271:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+activerecord (6.0.2.1) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.1.1) lib/rack/method_override.rb:24:in `call'
+rack (2.1.1) lib/rack/runtime.rb:24:in `call'
+activesupport (6.0.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.1.1) lib/rack/sendfile.rb:113:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.2.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.1) lib/puma/configuration.rb:228:in `call'
+puma (4.3.1) lib/puma/server.rb:681:in `handle_request'
+puma (4.3.1) lib/puma/server.rb:472:in `process_client'
+puma (4.3.1) lib/puma/server.rb:328:in `block in run'
+puma (4.3.1) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/api/v1/hello" for ::1 at 2020-01-26 11:08:18 -0800
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ActionController::RoutingError (uninitialized constant Api):
+  
+activesupport (6.0.2.1) lib/active_support/inflector/methods.rb:282:in `const_get'
+activesupport (6.0.2.1) lib/active_support/inflector/methods.rb:282:in `block in constantize'
+activesupport (6.0.2.1) lib/active_support/inflector/methods.rb:280:in `each'
+activesupport (6.0.2.1) lib/active_support/inflector/methods.rb:280:in `inject'
+activesupport (6.0.2.1) lib/active_support/inflector/methods.rb:280:in `constantize'
+activesupport (6.0.2.1) lib/active_support/dependencies/zeitwerk_integration.rb:19:in `constantize'
+actionpack (6.0.2.1) lib/action_dispatch/http/request.rb:88:in `controller_class_for'
+actionpack (6.0.2.1) lib/action_dispatch/http/request.rb:81:in `controller_class'
+actionpack (6.0.2.1) lib/action_dispatch/routing/route_set.rb:45:in `controller'
+actionpack (6.0.2.1) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (6.0.2.1) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.2.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.2.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.2.1) lib/action_dispatch/routing/route_set.rb:837:in `call'
+omniauth (1.9.0) lib/omniauth/strategy.rb:192:in `call!'
+omniauth (1.9.0) lib/omniauth/strategy.rb:169:in `call'
+omniauth (1.9.0) lib/omniauth/builder.rb:64:in `call'
+rack (2.1.1) lib/rack/tempfile_reaper.rb:17:in `call'
+rack (2.1.1) lib/rack/etag.rb:27:in `call'
+rack (2.1.1) lib/rack/conditional_get.rb:27:in `call'
+rack (2.1.1) lib/rack/head.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.1.1) lib/rack/session/abstract/id.rb:277:in `context'
+rack (2.1.1) lib/rack/session/abstract/id.rb:271:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+activerecord (6.0.2.1) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.1.1) lib/rack/method_override.rb:24:in `call'
+rack (2.1.1) lib/rack/runtime.rb:24:in `call'
+activesupport (6.0.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.1.1) lib/rack/sendfile.rb:113:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.2.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.1) lib/puma/configuration.rb:228:in `call'
+puma (4.3.1) lib/puma/server.rb:681:in `handle_request'
+puma (4.3.1) lib/puma/server.rb:472:in `process_client'
+puma (4.3.1) lib/puma/server.rb:328:in `block in run'
+puma (4.3.1) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/api/v1/hello" for ::1 at 2020-01-26 11:09:05 -0800
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ActionController::RoutingError (No route matches [GET] "/api/v1/hello"):
+  
+actionpack (6.0.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.1.1) lib/rack/method_override.rb:24:in `call'
+rack (2.1.1) lib/rack/runtime.rb:24:in `call'
+activesupport (6.0.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.1.1) lib/rack/sendfile.rb:113:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.2.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.1) lib/puma/configuration.rb:228:in `call'
+puma (4.3.1) lib/puma/server.rb:681:in `handle_request'
+puma (4.3.1) lib/puma/server.rb:472:in `process_client'
+puma (4.3.1) lib/puma/server.rb:328:in `block in run'
+puma (4.3.1) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/hello" for ::1 at 2020-01-26 11:09:11 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/hello"):
+  
+actionpack (6.0.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.1.1) lib/rack/method_override.rb:24:in `call'
+rack (2.1.1) lib/rack/runtime.rb:24:in `call'
+activesupport (6.0.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.1.1) lib/rack/sendfile.rb:113:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.2.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.1) lib/puma/configuration.rb:228:in `call'
+puma (4.3.1) lib/puma/server.rb:681:in `handle_request'
+puma (4.3.1) lib/puma/server.rb:472:in `process_client'
+puma (4.3.1) lib/puma/server.rb:328:in `block in run'
+puma (4.3.1) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/hello/index" for ::1 at 2020-01-26 11:09:15 -0800
+Processing by HelloController#index as HTML
+Completed 500 Internal Server Error in 227ms (ActiveRecord: 0.0ms | Allocations: 95906)
+
+
+  
+NameError (undefined local variable or method `meow' for #<HelloController:0x00007f8aa5012250>):
+  
+app/controllers/hello_controller.rb:3:in `index'
+Started GET "/hello/index" for ::1 at 2020-01-26 11:09:34 -0800
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HelloController#index as HTML
+  Rendering hello/index.html.erb within layouts/application
+  Rendered hello/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 90)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/michaelbonifacio/workspace/spotify/analyzer/public/packs
+[Webpacker] Hash: 53154d7baad00c6a1252
+Version: webpack 4.41.5
+Time: 1905ms
+Built at: 01/26/2020 11:09:39 AM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-0b67a3cc2fcde6055024.js    124 KiB  application  [emitted] [immutable]  application
+js/application-0b67a3cc2fcde6055024.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-0b67a3cc2fcde6055024.js js/application-0b67a3cc2fcde6055024.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+Completed 200 OK in 4274ms (Views: 4273.0ms | ActiveRecord: 0.0ms | Allocations: 18988)
+
+
+Started GET "/hello/index" for ::1 at 2020-01-26 11:40:01 -0800
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HelloController#index as HTML
+  Rendering hello/index.html.erb within layouts/application
+  Rendered hello/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 252)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 48ms (Views: 39.0ms | ActiveRecord: 0.0ms | Allocations: 7859)
+
+
+Started GET "/auth/spotify" for ::1 at 2020-01-26 11:40:04 -0800
+Started GET "/auth/spotify" for ::1 at 2020-01-26 11:40:04 -0800
+Started GET "/hello/index" for ::1 at 2020-01-26 11:43:52 -0800
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HelloController#index as HTML
+  Rendering hello/index.html.erb within layouts/application
+  Rendered hello/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 254)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 55ms (Views: 46.3ms | ActiveRecord: 0.0ms | Allocations: 7837)
+
+
+Started GET "/hello/index" for ::1 at 2020-01-26 11:43:56 -0800
+Processing by HelloController#index as HTML
+  Rendering hello/index.html.erb within layouts/application
+  Rendered hello/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 20)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 20ms (Views: 18.6ms | ActiveRecord: 0.0ms | Allocations: 3882)
+
+
+Started GET "/auth/spotify" for ::1 at 2020-01-26 11:43:58 -0800
+Started GET "/auth/spotify" for ::1 at 2020-01-26 11:43:58 -0800
+Started GET "/auth/spotify/callback?code=AQBQge4fBv1Cr_WvD2ej7tvB6b3UTmXjBF_diuuizLRqUkX0AmGleQ_4iV3Ah3dDIwiqNe21eSbIm2E1dFmHAnVutXAgnypTl_D0l8AaB2UxhhZAGE5MnbOtvOvybXUdh6wftHsXzCqW9SXrMi59NLPeY47fVJzdeOFnykSBX3crlkOAx6A91gNkmwnIdl0Xsmy0vvuv7faCPgV0ZhhXKm-7hZDkml6qtwiTnB893KgKobfhAjm5zjQeXPbBbp0wbRXSMxnkKnJwx49WJ1GO8TkLtNjEdUBzLwVm_yzqAte8lGgRScj3e_qGmnwfqQPZ0Qc&state=33fa4cc786cda42112b949b8376ce94fa9a564374d59b32e" for ::1 at 2020-01-26 11:44:07 -0800
+  
+OAuth2::Error (invalid_grant: Invalid redirect URI
+{"error":"invalid_grant","error_description":"Invalid redirect URI"}):
+  
+oauth2 (1.4.2) lib/oauth2/client.rb:119:in `request'
+oauth2 (1.4.2) lib/oauth2/client.rb:146:in `get_token'
+oauth2 (1.4.2) lib/oauth2/strategy/auth_code.rb:30:in `get_token'
+omniauth-oauth2 (1.5.0) lib/omniauth/strategies/oauth2.rb:89:in `build_access_token'
+omniauth-oauth2 (1.5.0) lib/omniauth/strategies/oauth2.rb:73:in `callback_phase'
+omniauth (1.9.0) lib/omniauth/strategy.rb:238:in `callback_call'
+omniauth (1.9.0) lib/omniauth/strategy.rb:189:in `call!'
+omniauth (1.9.0) lib/omniauth/strategy.rb:169:in `call'
+omniauth (1.9.0) lib/omniauth/builder.rb:64:in `call'
+rack (2.1.1) lib/rack/tempfile_reaper.rb:17:in `call'
+rack (2.1.1) lib/rack/etag.rb:27:in `call'
+rack (2.1.1) lib/rack/conditional_get.rb:27:in `call'
+rack (2.1.1) lib/rack/head.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.1.1) lib/rack/session/abstract/id.rb:277:in `context'
+rack (2.1.1) lib/rack/session/abstract/id.rb:271:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+activerecord (6.0.2.1) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.1.1) lib/rack/method_override.rb:24:in `call'
+rack (2.1.1) lib/rack/runtime.rb:24:in `call'
+activesupport (6.0.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.1.1) lib/rack/sendfile.rb:113:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.2.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.1) lib/puma/configuration.rb:228:in `call'
+puma (4.3.1) lib/puma/server.rb:681:in `handle_request'
+puma (4.3.1) lib/puma/server.rb:472:in `process_client'
+puma (4.3.1) lib/puma/server.rb:328:in `block in run'
+puma (4.3.1) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/auth/spotify/callback?code=AQBQge4fBv1Cr_WvD2ej7tvB6b3UTmXjBF_diuuizLRqUkX0AmGleQ_4iV3Ah3dDIwiqNe21eSbIm2E1dFmHAnVutXAgnypTl_D0l8AaB2UxhhZAGE5MnbOtvOvybXUdh6wftHsXzCqW9SXrMi59NLPeY47fVJzdeOFnykSBX3crlkOAx6A91gNkmwnIdl0Xsmy0vvuv7faCPgV0ZhhXKm-7hZDkml6qtwiTnB893KgKobfhAjm5zjQeXPbBbp0wbRXSMxnkKnJwx49WJ1GO8TkLtNjEdUBzLwVm_yzqAte8lGgRScj3e_qGmnwfqQPZ0Qc&state=33fa4cc786cda42112b949b8376ce94fa9a564374d59b32e" for ::1 at 2020-01-26 11:45:08 -0800
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+OAuth2::Error (invalid_grant: Invalid redirect URI
+{"error":"invalid_grant","error_description":"Invalid redirect URI"}):
+  
+oauth2 (1.4.2) lib/oauth2/client.rb:119:in `request'
+oauth2 (1.4.2) lib/oauth2/client.rb:146:in `get_token'
+oauth2 (1.4.2) lib/oauth2/strategy/auth_code.rb:30:in `get_token'
+omniauth-oauth2 (1.5.0) lib/omniauth/strategies/oauth2.rb:89:in `build_access_token'
+omniauth-oauth2 (1.5.0) lib/omniauth/strategies/oauth2.rb:73:in `callback_phase'
+omniauth (1.9.0) lib/omniauth/strategy.rb:238:in `callback_call'
+omniauth (1.9.0) lib/omniauth/strategy.rb:189:in `call!'
+omniauth (1.9.0) lib/omniauth/strategy.rb:169:in `call'
+omniauth (1.9.0) lib/omniauth/builder.rb:64:in `call'
+rack (2.1.1) lib/rack/tempfile_reaper.rb:17:in `call'
+rack (2.1.1) lib/rack/etag.rb:27:in `call'
+rack (2.1.1) lib/rack/conditional_get.rb:27:in `call'
+rack (2.1.1) lib/rack/head.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.1.1) lib/rack/session/abstract/id.rb:277:in `context'
+rack (2.1.1) lib/rack/session/abstract/id.rb:271:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+activerecord (6.0.2.1) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.1.1) lib/rack/method_override.rb:24:in `call'
+rack (2.1.1) lib/rack/runtime.rb:24:in `call'
+activesupport (6.0.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.1.1) lib/rack/sendfile.rb:113:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.2.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.1) lib/puma/configuration.rb:228:in `call'
+puma (4.3.1) lib/puma/server.rb:681:in `handle_request'
+puma (4.3.1) lib/puma/server.rb:472:in `process_client'
+puma (4.3.1) lib/puma/server.rb:328:in `block in run'
+puma (4.3.1) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/auth/spotify/callback?code=AQAiPSeXzVEmFxQGgSd_UEqhgLHh5m7JHRKYRcVcd7fF0IMh2QQBoypKNCGMj4F8AGSm_A4z0tpiUivoNPfn3UTHJ5SmWONdqaKKOgvUJC73Jg3YOeIs6lYJ7-4MmEh1zE1sLc9bP0oAP8lVFnEV9yQm8Oox0hBkU2Fmc8l5hdqaOqBJKQ_CbRF-jEVURfPifjzaZyCR2XrRpB6blHTrKdGYZYA2btHrKFtgFy5wbp1iOY8xkl1YmHaSziaYoa5vmnhkgIATaD7m28g3pX54UEihgG0wuqv6D2ylKPZR_46oomhFJXUPuWUlnyran6G8B9Y&state=33fa4cc786cda42112b949b8376ce94fa9a564374d59b32e" for ::1 at 2020-01-26 11:45:11 -0800
+  
+OAuth2::Error (invalid_grant: Invalid redirect URI
+{"error":"invalid_grant","error_description":"Invalid redirect URI"}):
+  
+oauth2 (1.4.2) lib/oauth2/client.rb:119:in `request'
+oauth2 (1.4.2) lib/oauth2/client.rb:146:in `get_token'
+oauth2 (1.4.2) lib/oauth2/strategy/auth_code.rb:30:in `get_token'
+omniauth-oauth2 (1.5.0) lib/omniauth/strategies/oauth2.rb:89:in `build_access_token'
+omniauth-oauth2 (1.5.0) lib/omniauth/strategies/oauth2.rb:73:in `callback_phase'
+omniauth (1.9.0) lib/omniauth/strategy.rb:238:in `callback_call'
+omniauth (1.9.0) lib/omniauth/strategy.rb:189:in `call!'
+omniauth (1.9.0) lib/omniauth/strategy.rb:169:in `call'
+omniauth (1.9.0) lib/omniauth/builder.rb:64:in `call'
+rack (2.1.1) lib/rack/tempfile_reaper.rb:17:in `call'
+rack (2.1.1) lib/rack/etag.rb:27:in `call'
+rack (2.1.1) lib/rack/conditional_get.rb:27:in `call'
+rack (2.1.1) lib/rack/head.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.1.1) lib/rack/session/abstract/id.rb:277:in `context'
+rack (2.1.1) lib/rack/session/abstract/id.rb:271:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+activerecord (6.0.2.1) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.1.1) lib/rack/method_override.rb:24:in `call'
+rack (2.1.1) lib/rack/runtime.rb:24:in `call'
+activesupport (6.0.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.1.1) lib/rack/sendfile.rb:113:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.2.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.1) lib/puma/configuration.rb:228:in `call'
+puma (4.3.1) lib/puma/server.rb:681:in `handle_request'
+puma (4.3.1) lib/puma/server.rb:472:in `process_client'
+puma (4.3.1) lib/puma/server.rb:328:in `block in run'
+puma (4.3.1) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/hello/index" for ::1 at 2020-01-26 11:45:16 -0800
+Processing by HelloController#index as HTML
+  Rendering hello/index.html.erb within layouts/application
+  Rendered hello/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 20)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 8.6ms | ActiveRecord: 0.0ms | Allocations: 4062)
+
+
+Started GET "/auth/spotify" for ::1 at 2020-01-26 11:45:17 -0800
+Started GET "/auth/spotify" for ::1 at 2020-01-26 11:45:17 -0800
+Started GET "/auth/spotify/callback?code=AQBj1nyA0qYqOsch0g8EVnpG2A0dQqZyw6y9JBP6sWZY-7jn0XygCxKXueaNu88BUb1SeV-BdKGegDjGPM_EZYEidE90ZYVrU1xbLiG09ilS2T4pRubmrs89oF2ezzpXT9BjcU1B1q5YU5JvP4T_sHgPnJvjiWdpPyLCuWNQ6-PkrzOHq435JKhm0ZK4ga19ciO6rCcMU0PLZySLgLWTT1tcrm9UJ76x4SoDz79_DElbFP2Oqf6ViHNyvccoaEGPzgITGNe1hgUuU7pWjvNSbpLoA6g_c8cgRjwodk3h8-1SxdzUG40KpEoFHzeotLgsKAw&state=26f30346cc4df4c211c775ebb657a4c2824002252216a878" for ::1 at 2020-01-26 11:45:18 -0800
+  
+OAuth2::Error (invalid_grant: Invalid redirect URI
+{"error":"invalid_grant","error_description":"Invalid redirect URI"}):
+  
+oauth2 (1.4.2) lib/oauth2/client.rb:119:in `request'
+oauth2 (1.4.2) lib/oauth2/client.rb:146:in `get_token'
+oauth2 (1.4.2) lib/oauth2/strategy/auth_code.rb:30:in `get_token'
+omniauth-oauth2 (1.5.0) lib/omniauth/strategies/oauth2.rb:89:in `build_access_token'
+omniauth-oauth2 (1.5.0) lib/omniauth/strategies/oauth2.rb:73:in `callback_phase'
+omniauth (1.9.0) lib/omniauth/strategy.rb:238:in `callback_call'
+omniauth (1.9.0) lib/omniauth/strategy.rb:189:in `call!'
+omniauth (1.9.0) lib/omniauth/strategy.rb:169:in `call'
+omniauth (1.9.0) lib/omniauth/builder.rb:64:in `call'
+rack (2.1.1) lib/rack/tempfile_reaper.rb:17:in `call'
+rack (2.1.1) lib/rack/etag.rb:27:in `call'
+rack (2.1.1) lib/rack/conditional_get.rb:27:in `call'
+rack (2.1.1) lib/rack/head.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.1.1) lib/rack/session/abstract/id.rb:277:in `context'
+rack (2.1.1) lib/rack/session/abstract/id.rb:271:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+activerecord (6.0.2.1) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.1.1) lib/rack/method_override.rb:24:in `call'
+rack (2.1.1) lib/rack/runtime.rb:24:in `call'
+activesupport (6.0.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.1.1) lib/rack/sendfile.rb:113:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.2.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.1) lib/puma/configuration.rb:228:in `call'
+puma (4.3.1) lib/puma/server.rb:681:in `handle_request'
+puma (4.3.1) lib/puma/server.rb:472:in `process_client'
+puma (4.3.1) lib/puma/server.rb:328:in `block in run'
+puma (4.3.1) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/auth/spotify" for ::1 at 2020-01-26 11:45:43 -0800
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Started GET "/auth/spotify" for ::1 at 2020-01-26 11:45:43 -0800
+Started GET "/auth/spotify/callback?code=AQDtPWqO3wKVB_k0raALndZrSFo2v718T8WS_bzhp_-v7fqxXn2hwJeitNgvE_iIY9_52t5K5V2c57Y_CNBXiqnj7c6HuRC8v2ZUI9n27_cF_xLj-8ws0M5YkHFM9IcP7Gw1GjinfORuax2Rdxx261HYX1IFKAeU5dJKGMstIAOC_08S64UnSMp8MoDaGxcsqqkojv82F94FCBmCNk68wLUd2sj-1kF71UCDBQGV6NihkPgLW50Nre-lGq0tCXs_fMDUkE7e9-jh9N2Lv9UUiQnUuu5BHEoLE5LOvC3WIVJ_Y62xBTM249yX7_NGvAvWivY&state=a563954fba2c8ec0e829a428bec203443c86e99523ba732c" for ::1 at 2020-01-26 11:45:43 -0800
+  
+OAuth2::Error (invalid_grant: Invalid redirect URI
+{"error":"invalid_grant","error_description":"Invalid redirect URI"}):
+  
+oauth2 (1.4.2) lib/oauth2/client.rb:119:in `request'
+oauth2 (1.4.2) lib/oauth2/client.rb:146:in `get_token'
+oauth2 (1.4.2) lib/oauth2/strategy/auth_code.rb:30:in `get_token'
+omniauth-oauth2 (1.5.0) lib/omniauth/strategies/oauth2.rb:89:in `build_access_token'
+omniauth-oauth2 (1.5.0) lib/omniauth/strategies/oauth2.rb:73:in `callback_phase'
+omniauth (1.9.0) lib/omniauth/strategy.rb:238:in `callback_call'
+omniauth (1.9.0) lib/omniauth/strategy.rb:189:in `call!'
+omniauth (1.9.0) lib/omniauth/strategy.rb:169:in `call'
+omniauth (1.9.0) lib/omniauth/builder.rb:64:in `call'
+rack (2.1.1) lib/rack/tempfile_reaper.rb:17:in `call'
+rack (2.1.1) lib/rack/etag.rb:27:in `call'
+rack (2.1.1) lib/rack/conditional_get.rb:27:in `call'
+rack (2.1.1) lib/rack/head.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.1.1) lib/rack/session/abstract/id.rb:277:in `context'
+rack (2.1.1) lib/rack/session/abstract/id.rb:271:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+activerecord (6.0.2.1) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.1.1) lib/rack/method_override.rb:24:in `call'
+rack (2.1.1) lib/rack/runtime.rb:24:in `call'
+activesupport (6.0.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.1.1) lib/rack/sendfile.rb:113:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.2.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.1) lib/puma/configuration.rb:228:in `call'
+puma (4.3.1) lib/puma/server.rb:681:in `handle_request'
+puma (4.3.1) lib/puma/server.rb:472:in `process_client'
+puma (4.3.1) lib/puma/server.rb:328:in `block in run'
+puma (4.3.1) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/auth/spotify" for ::1 at 2020-01-26 12:04:08 -0800
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Started GET "/auth/spotify" for ::1 at 2020-01-26 12:04:09 -0800
+Started GET "/auth/spotify/callback?code=AQAraeECYXmOTKCNwlJdk1IvWW571fxKRXzomCbsVSTMTtpnvyjEt-9SUof5QOG1MS5EU_o7kb8xPQL77OKOKOJ77jnR_g1n11CjcWSYEkPGScx3lwOYjflr1crk5_LDaY9Q5-r3PURwimHIimGKmIFsiINUl5KH-6IO7G4VHNnBBxXWnv6Vp7MfTY1-jcHBWXvSIKppISyxPaDCTUijGZy2NOAg_2mK25GYU2_BCteZR7uQRzJ_t4umO3QM0ArKfEnaAD8yKa4-VaFVjaJvbhy4GZBYTe80xVPyqdKxuf9dGtiYlADB3cok6hEooKhUcv8&state=ca047b1524abe6735ee60e8bbc5a349b9656d41bed55902a" for ::1 at 2020-01-26 12:04:09 -0800
+Processing by HelloController#index as HTML
+  Parameters: {"code"=>"AQAraeECYXmOTKCNwlJdk1IvWW571fxKRXzomCbsVSTMTtpnvyjEt-9SUof5QOG1MS5EU_o7kb8xPQL77OKOKOJ77jnR_g1n11CjcWSYEkPGScx3lwOYjflr1crk5_LDaY9Q5-r3PURwimHIimGKmIFsiINUl5KH-6IO7G4VHNnBBxXWnv6Vp7MfTY1-jcHBWXvSIKppISyxPaDCTUijGZy2NOAg_2mK25GYU2_BCteZR7uQRzJ_t4umO3QM0ArKfEnaAD8yKa4-VaFVjaJvbhy4GZBYTe80xVPyqdKxuf9dGtiYlADB3cok6hEooKhUcv8", "state"=>"ca047b1524abe6735ee60e8bbc5a349b9656d41bed55902a"}
+  Rendering hello/index.html.erb within layouts/application
+  Rendered hello/index.html.erb within layouts/application (Duration: 1.8ms | Allocations: 254)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 49ms (Views: 44.4ms | ActiveRecord: 0.0ms | Allocations: 7674)
+
+
+Started GET "/hello/index" for ::1 at 2020-01-26 13:49:03 -0800
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HelloController#index as HTML
+  Rendering hello/index.html.erb within layouts/application
+  Rendered hello/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 255)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 40ms (Views: 33.7ms | ActiveRecord: 0.0ms | Allocations: 7808)
+
+
+Started GET "/auth/spotify" for ::1 at 2020-01-26 13:49:07 -0800
+Started GET "/auth/spotify" for ::1 at 2020-01-26 13:49:07 -0800
+Started GET "/auth/spotify/callback?code=AQDhGljkSBk19V1c7i_irAYXzQyW63rsng1zH7jC74nqLZpRWh_F5na-0xOojch5BOAeReDp6AzajMOFV5H8wqS_d_EIp9yY-QLW5AVHRBG1NNxK-18xIQkH_uKE8jEvAw0av62yvH5nICZ_G4CKZwX2PhBN8CPb2k1AFjAbhy_CPkzU41moUAXVDt8eHa4bzk8Iz5ixkdtHxZU4SI9P7Pfg_mwlNxqUGigQN11M0bXYWwjkVkZS9yaSYdgAzggKFZmHbHpkOzs7FFzgh9iGjhYQvwWN_EM8D95TC5OFe12wC_Ez-Uu8dZBbgSusZf-lRGo&state=460f6ea863cd7057af5581f5863e4e43318e4006e9dd1474" for ::1 at 2020-01-26 13:49:08 -0800
+Processing by HelloController#index as HTML
+  Parameters: {"code"=>"AQDhGljkSBk19V1c7i_irAYXzQyW63rsng1zH7jC74nqLZpRWh_F5na-0xOojch5BOAeReDp6AzajMOFV5H8wqS_d_EIp9yY-QLW5AVHRBG1NNxK-18xIQkH_uKE8jEvAw0av62yvH5nICZ_G4CKZwX2PhBN8CPb2k1AFjAbhy_CPkzU41moUAXVDt8eHa4bzk8Iz5ixkdtHxZU4SI9P7Pfg_mwlNxqUGigQN11M0bXYWwjkVkZS9yaSYdgAzggKFZmHbHpkOzs7FFzgh9iGjhYQvwWN_EM8D95TC5OFe12wC_Ez-Uu8dZBbgSusZf-lRGo", "state"=>"460f6ea863cd7057af5581f5863e4e43318e4006e9dd1474"}
+  Rendering hello/index.html.erb within layouts/application
+  Rendered hello/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 20)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.0ms | Allocations: 3727)
+
+
+Started GET "/auth/spotify" for ::1 at 2020-01-26 13:49:14 -0800
+Started GET "/auth/spotify" for ::1 at 2020-01-26 13:49:15 -0800
+Started GET "/auth/spotify/callback?code=AQDsWqlpBTmp3VRiRsy3VOvW8Fbkf9VYsZskFuTrostLjhO50nIKWLfirYxsUmv1VNDth6wOi5UzTAJnhQORhdmZEaJvpLoT5w2sFFVRiYstSpaQOfX6PrDkuXltHa-USOG2o-_zrEYVflgQ09VB_5UwJ3BwBP3nnozhYwCe--WSqVIxz3fR5P0oTx5NRl3mq-yqqDPp4W1UuhjXkKqlpvIBto_-dlZa5Xh3a9_LwRr5w7NfW4QkcNuQWz4iew1SjRzSqOdg8qM6ygYwnnhVmqm2jcxhonC6TRdljwPnu0sEU9nChFJk6jCfysVjTZ8GV1E&state=adcb1d473f5a4c3a32cd78fddca79ee8544f919884878f36" for ::1 at 2020-01-26 13:49:15 -0800
+Processing by HelloController#index as HTML
+  Parameters: {"code"=>"AQDsWqlpBTmp3VRiRsy3VOvW8Fbkf9VYsZskFuTrostLjhO50nIKWLfirYxsUmv1VNDth6wOi5UzTAJnhQORhdmZEaJvpLoT5w2sFFVRiYstSpaQOfX6PrDkuXltHa-USOG2o-_zrEYVflgQ09VB_5UwJ3BwBP3nnozhYwCe--WSqVIxz3fR5P0oTx5NRl3mq-yqqDPp4W1UuhjXkKqlpvIBto_-dlZa5Xh3a9_LwRr5w7NfW4QkcNuQWz4iew1SjRzSqOdg8qM6ygYwnnhVmqm2jcxhonC6TRdljwPnu0sEU9nChFJk6jCfysVjTZ8GV1E", "state"=>"adcb1d473f5a4c3a32cd78fddca79ee8544f919884878f36"}
+  Rendering hello/index.html.erb within layouts/application
+  Rendered hello/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 18)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms | Allocations: 3721)
+
+
